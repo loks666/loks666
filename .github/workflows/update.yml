@@ -15,7 +15,7 @@ jobs:
     env:
       TZ: Asia/Shanghai
       MY_GITHUB_USERNAME: ${{ secrets.MY_GITHUB_USERNAME }}
-      MY_GITHUB_PAT: ${{ secrets.MY_GITHUB_PAT }}   # classic PAT，勾 repo
+      MY_GITHUB_PAT: ${{ secrets.MY_GITHUB_PAT }}
     steps:
       - uses: actions/checkout@v4
         with:
