@@ -1,17 +1,17 @@
 ## Abstract
 <p>
-  <img src="https://github-readme-stats.vercel.app/api?username=loks666&show_icons=true&hide_border=true&v=20251118010639" alt="loks666's Github Stats" width="58%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=loks666&layout=compact&hide_border=true&langs_count=10&v=20251118010639" alt="loks666's Top Langs" width="37%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=loks666&show_icons=true&hide_border=true&v=20251119010707" alt="loks666's Github Stats" width="58%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=loks666&layout=compact&hide_border=true&langs_count=10&v=20251119010707" alt="loks666's Top Langs" width="37%" />
 </p>
 
 <!-- 活跃度图 -->
 <p>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=loks666&theme=github&v=20251118010639" width="100%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=loks666&theme=github&v=20251119010707" width="100%" />
 </p>
 
 <!-- 奖杯墙 -->
 <p>
-  <img src="https://github-profile-trophy.vercel.app/?username=loks666&theme=gruvbox&row=1&column=7&v=20251118010639" width="100%" />
+  <img src="https://github-profile-trophy.vercel.app/?username=loks666&theme=gruvbox&row=1&column=7&v=20251119010707" width="100%" />
 </p>
 
 ![skills](https://skillicons.dev/icons?i=c,cpp,go,py,html,css,js,nodejs,java,md,pytorch,tensorflow,flask,fastapi,express,qt,react,cmake,docker,git,linux,nginx,mysql,redis,sqlite,githubactions,heroku,vercel,visualstudio,vscode)
@@ -19,7 +19,7 @@
 ## Top Projects
 |Project|Description|Stars|
 |:--|:--|:--|
-|[get_jobs](https://github.com/loks666/get_jobs)|💼【AI找工作助手】全平台自动投简历脚本：(boss、前程无忧、猎聘、智联招聘)|`5161⭐`|
+|[get_jobs](https://github.com/loks666/get_jobs)|💼【AI找工作助手】全平台自动投简历脚本：(boss、前程无忧、猎聘、智联招聘)|`5164⭐`|
 |[niubaide_im](https://github.com/loks666/niubaide_im)|牛掰的即时通讯(Uniapp + SpringBoot + Netty)|`30⭐`|
 |[webchat](https://github.com/loks666/webchat)|一个聊天应用|`23⭐`|
 |[disease-prediction](https://github.com/loks666/disease-prediction)|疾病预测分析系统旨在利用现代数据分析技术和机器学习算法，帮助医疗机构和研究人员对疾病的发生和发展进行预测和分析，从而提高疾病防控和治疗的效率。该系统主要包括数据收集与处理、模型训练与评估、以及预测结果展示等模块。|`17⭐`|
@@ -34,7 +34,7 @@
 ## Recent Updates
 |Project|Description|Last Update|
 |:--|:--|:--|
-|[loks666](https://github.com/loks666/loks666)|Automatically update your GitHub profile with GitHub Actions.|![2025-11-16 17:05:27](https://img.shields.io/badge/2025--11--16-17%3A05%3A27-brightgreen?style=flat-square)|
+|[loks666](https://github.com/loks666/loks666)|Automatically update your GitHub profile with GitHub Actions.|![2025-11-17 17:06:40](https://img.shields.io/badge/2025--11--17-17%3A06%3A40-brightgreen?style=flat-square)|
 |[nano-vllm (fork)](https://github.com/loks666/nano-vllm)|Nano vLLM|![2025-11-12 18:22:05](https://img.shields.io/badge/2025--11--12-18%3A22%3A05-brightgreen?style=flat-square)|
 |[get_jobs](https://github.com/loks666/get_jobs)|💼【AI找工作助手】全平台自动投简历脚本：(boss、前程无忧、猎聘、智联招聘)|![2025-11-11 15:38:20](https://img.shields.io/badge/2025--11--11-15%3A38%3A20-brightgreen?style=flat-square)|
 |[chatgpt-on-wechat (fork)](https://github.com/loks666/chatgpt-on-wechat)|Wechat robot based on ChatGPT,  which using OpenAI api and itchat library. 使用大模型搭建微信聊天机器人，基于 GPT3.5/GPT4.0/Claude/文心一言/讯飞星火/通义千问/Gemini/LinkAI，支持个人微信、公众号、企业微信、飞书部署，能处理文本、语音和图片，访问操作系统和互联网，支持基于知识库定制专属机器人。|![2025-10-18 16:14:15](https://img.shields.io/badge/2025--10--18-16%3A14%3A15-brightgreen?style=flat-square)|
@@ -46,4 +46,4 @@
 |[youtu-graphrag (fork)](https://github.com/loks666/youtu-graphrag)|Official repository of Youtu-GraphRAG: Vertically Unified Agents for Graph Retrieval-Augmented Complex Reasoning|![2025-09-17 14:02:00](https://img.shields.io/badge/2025--09--17-14%3A02%3A00-brightgreen?style=flat-square)|
 
 
-*Last updated on: 2025-11-18 01:06:39*
+*Last updated on: 2025-11-19 01:07:07*
