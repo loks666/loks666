@@ -1,17 +1,17 @@
 ## Abstract
 <p>
-  <img src="https://github-readme-stats.vercel.app/api?username=loks666&show_icons=true&hide_border=true&v=20260130011629" alt="loks666's Github Stats" width="58%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=loks666&layout=compact&hide_border=true&langs_count=10&v=20260130011629" alt="loks666's Top Langs" width="37%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=loks666&show_icons=true&hide_border=true&v=20260131011533" alt="loks666's Github Stats" width="58%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=loks666&layout=compact&hide_border=true&langs_count=10&v=20260131011533" alt="loks666's Top Langs" width="37%" />
 </p>
 
 <!-- 活跃度图 -->
 <p>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=loks666&theme=github&v=20260130011629" width="100%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=loks666&theme=github&v=20260131011533" width="100%" />
 </p>
 
 <!-- 奖杯墙 -->
 <p>
-  <img src="https://github-profile-trophy.vercel.app/?username=loks666&theme=gruvbox&row=1&column=7&v=20260130011629" width="100%" />
+  <img src="https://github-profile-trophy.vercel.app/?username=loks666&theme=gruvbox&row=1&column=7&v=20260131011533" width="100%" />
 </p>
 
 ![skills](https://skillicons.dev/icons?i=c,cpp,go,py,html,css,js,nodejs,java,md,pytorch,tensorflow,flask,fastapi,express,qt,react,cmake,docker,git,linux,nginx,mysql,redis,sqlite,githubactions,heroku,vercel,visualstudio,vscode)
@@ -34,8 +34,8 @@
 ## Recent Updates
 |Project|Description|Last Update|
 |:--|:--|:--|
-|[loks666](https://github.com/loks666/loks666)|Automatically update your GitHub profile with GitHub Actions.|![2026-01-28 17:15:05](https://img.shields.io/badge/2026--01--28-17%3A15%3A05-brightgreen?style=flat-square)|
-|[get_jobs](https://github.com/loks666/get_jobs)|💼【AI找工作助手】全平台自动投简历脚本：(boss、前程无忧、猎聘、智联招聘)|![2026-01-21 13:50:01](https://img.shields.io/badge/2026--01--21-13%3A50%3A01-brightgreen?style=flat-square)|
+|[get_jobs](https://github.com/loks666/get_jobs)|💼【AI找工作助手】全平台自动投简历脚本：(boss、前程无忧、猎聘、智联招聘)|![2026-01-30 14:54:33](https://img.shields.io/badge/2026--01--30-14%3A54%3A33-brightgreen?style=flat-square)|
+|[loks666](https://github.com/loks666/loks666)|Automatically update your GitHub profile with GitHub Actions.|![2026-01-29 17:16:30](https://img.shields.io/badge/2026--01--29-17%3A16%3A30-brightgreen?style=flat-square)|
 |[nano-vllm (fork)](https://github.com/loks666/nano-vllm)|Nano vLLM|![2025-11-12 18:22:05](https://img.shields.io/badge/2025--11--12-18%3A22%3A05-brightgreen?style=flat-square)|
 |[chatgpt-on-wechat (fork)](https://github.com/loks666/chatgpt-on-wechat)|Wechat robot based on ChatGPT,  which using OpenAI api and itchat library. 使用大模型搭建微信聊天机器人，基于 GPT3.5/GPT4.0/Claude/文心一言/讯飞星火/通义千问/Gemini/LinkAI，支持个人微信、公众号、企业微信、飞书部署，能处理文本、语音和图片，访问操作系统和互联网，支持基于知识库定制专属机器人。|![2025-10-18 16:14:15](https://img.shields.io/badge/2025--10--18-16%3A14%3A15-brightgreen?style=flat-square)|
 |[anyrouter-autolog (fork)](https://github.com/loks666/anyrouter-autolog)|🤖AnyRouter多账号签到。|![2025-10-17 17:53:44](https://img.shields.io/badge/2025--10--17-17%3A53%3A44-brightgreen?style=flat-square)|
@@ -46,4 +46,4 @@
 |[ccs (fork)](https://github.com/loks666/ccs)|让 Claude Code 更易用，支持多配置切换。|![2025-09-17 14:45:16](https://img.shields.io/badge/2025--09--17-14%3A45%3A16-brightgreen?style=flat-square)|
 
 
-*Last updated on: 2026-01-30 01:16:29*
+*Last updated on: 2026-01-31 01:15:33*
