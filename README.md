@@ -1,17 +1,17 @@
 ## Abstract
 <p>
-  <img src="https://github-readme-stats.vercel.app/api?username=loks666&show_icons=true&hide_border=true&v=20260202010841" alt="loks666's Github Stats" width="58%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=loks666&layout=compact&hide_border=true&langs_count=10&v=20260202010841" alt="loks666's Top Langs" width="37%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=loks666&show_icons=true&hide_border=true&v=20260203011809" alt="loks666's Github Stats" width="58%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=loks666&layout=compact&hide_border=true&langs_count=10&v=20260203011809" alt="loks666's Top Langs" width="37%" />
 </p>
 
 <!-- 活跃度图 -->
 <p>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=loks666&theme=github&v=20260202010841" width="100%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=loks666&theme=github&v=20260203011809" width="100%" />
 </p>
 
 <!-- 奖杯墙 -->
 <p>
-  <img src="https://github-profile-trophy.vercel.app/?username=loks666&theme=gruvbox&row=1&column=7&v=20260202010841" width="100%" />
+  <img src="https://github-profile-trophy.vercel.app/?username=loks666&theme=gruvbox&row=1&column=7&v=20260203011809" width="100%" />
 </p>
 
 ![skills](https://skillicons.dev/icons?i=c,cpp,go,py,html,css,js,nodejs,java,md,pytorch,tensorflow,flask,fastapi,express,qt,react,cmake,docker,git,linux,nginx,mysql,redis,sqlite,githubactions,heroku,vercel,visualstudio,vscode)
@@ -19,7 +19,7 @@
 ## Top Projects
 |Project|Description|Stars|
 |:--|:--|:--|
-|[get_jobs](https://github.com/loks666/get_jobs)|💼【AI找工作助手】全平台自动投简历脚本：(boss、前程无忧、猎聘、智联招聘)|`5706⭐`|
+|[get_jobs](https://github.com/loks666/get_jobs)|💼【AI找工作助手】全平台自动投简历脚本：(boss、前程无忧、猎聘、智联招聘)|`5713⭐`|
 |[niubaide_im](https://github.com/loks666/niubaide_im)|牛掰的即时通讯(Uniapp + SpringBoot + Netty)|`32⭐`|
 |[idm_crack](https://github.com/loks666/idm_crack)|This is a repository for backing up idm crack files，这是一个备份IDM破解文件的仓库|`26⭐`|
 |[anyrouter-autolog (fork)](https://github.com/loks666/anyrouter-autolog)|🤖AnyRouter多账号签到。|`22⭐`|
@@ -34,7 +34,7 @@
 ## Recent Updates
 |Project|Description|Last Update|
 |:--|:--|:--|
-|[loks666](https://github.com/loks666/loks666)|Automatically update your GitHub profile with GitHub Actions.|![2026-01-31 17:08:53](https://img.shields.io/badge/2026--01--31-17%3A08%3A53-brightgreen?style=flat-square)|
+|[loks666](https://github.com/loks666/loks666)|Automatically update your GitHub profile with GitHub Actions.|![2026-02-01 17:08:42](https://img.shields.io/badge/2026--02--01-17%3A08%3A42-brightgreen?style=flat-square)|
 |[github-readme-stats (fork)](https://github.com/loks666/github-readme-stats)|:zap: Dynamically generated stats for your github readmes|![2026-01-31 00:41:27](https://img.shields.io/badge/2026--01--31-00%3A41%3A27-brightgreen?style=flat-square)|
 |[pacman-engine](https://github.com/loks666/pacman-engine)|pacman agent|![2026-01-30 22:30:15](https://img.shields.io/badge/2026--01--30-22%3A30%3A15-brightgreen?style=flat-square)|
 |[get_jobs](https://github.com/loks666/get_jobs)|💼【AI找工作助手】全平台自动投简历脚本：(boss、前程无忧、猎聘、智联招聘)|![2026-01-30 14:54:33](https://img.shields.io/badge/2026--01--30-14%3A54%3A33-brightgreen?style=flat-square)|
@@ -46,4 +46,4 @@
 |[Wechatsync (fork)](https://github.com/loks666/Wechatsync)|一键同步文章到多个内容平台，支持今日头条、WordPress、知乎、简书、掘金、CSDN、typecho各大平台，一次发布，多平台同步发布。解放个人生产力|![2025-10-03 23:05:18](https://img.shields.io/badge/2025--10--03-23%3A05%3A18-brightgreen?style=flat-square)|
 
 
-*Last updated on: 2026-02-02 01:08:41*
+*Last updated on: 2026-02-03 01:18:09*
