@@ -5,11 +5,18 @@ import datetime
 import requests
 
 # ========= 环境变量 =========
-USERNAME = os.getenv("MY_GITHUB_USERNAME") or os.getenv("GITHUB_USERNAME")
-TOKEN = os.getenv("MY_GITHUB_PAT") or os.getenv("GITHUB_TOKEN")  # 建议 classic PAT 勾 repo
+USERNAME = os.getenv("GITHUB_USERNAME") or os.getenv("MY_GITHUB_USERNAME")
+TOKEN = (
+    os.getenv("GITHUB_PAT")
+    or os.getenv("GITHUB_PAT")
+    or os.getenv("GITHUB_TOKEN")  # 建议 classic PAT 勾 repo
+)
 
 TOP_REPO_NUM = int(os.getenv("TOP_REPO_NUM", "10"))
 RECENT_REPO_NUM = int(os.getenv("RECENT_REPO_NUM", "10"))
+
+# 是否显示 Top Langs（默认不显示）
+SHOW_TOP_LANGS = (os.getenv("SHOW_TOP_LANGS", "false").strip().lower() in ("1", "true", "yes", "y"))
 
 def log(*args):
     print("[UPDATE_PROFILE]", *args, flush=True)
@@ -70,6 +77,10 @@ STATIC_SKILL_ICONS = os.getenv(
     "https://skillicons.dev/icons?i=c,cpp,go,py,html,css,js,nodejs,java,md,pytorch,tensorflow,flask,fastapi,express,qt,react,cmake,docker,git,linux,nginx,mysql,redis,sqlite,githubactions,heroku,vercel,visualstudio,vscode"
 )
 
+# 你已确定的两个自部署链接（固定）
+STATS_BASE = "https://github-readme-stats-phi-rouge.vercel.app"
+STREAK_BASE = "https://github-readme-streak-stats-delta-green.vercel.app"
+
 def render(username: str, repos: list) -> str:
     now = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     cache_bust = now.replace(' ', '').replace(':', '').replace('-', '')
@@ -82,7 +93,7 @@ def render(username: str, repos: list) -> str:
         processed.append({
             "name": repo.get("name"),
             "link": repo.get("html_url"),
-            "desc": (repo.get("description") or "").replace('|','\\|').strip(),
+            "desc": (repo.get("description") or "").replace('|', '\\|').strip(),
             "star": repo.get("stargazers_count", 0),
             "pushed_dt": dt,
             "pushed_human": pushed_human,
@@ -96,12 +107,53 @@ def render(username: str, repos: list) -> str:
     top = sorted(public_processed, key=lambda x: x["star"], reverse=True)[:TOP_REPO_NUM]
     recent = sorted(public_processed, key=lambda x: x["pushed_dt"], reverse=True)[:RECENT_REPO_NUM]
 
+    # 你确定的 Stats 卡片（信息最全版本）
+    stats_url = (
+        f"{STATS_BASE}/api"
+        f"?username={username}"
+        f"&show_icons=true"
+        f"&include_all_commits=true"
+        f"&count_private=true"
+        f"&hide_border=true"
+        f"&theme=github_dark"
+        f"&v={cache_bust}"
+    )
+
+    # 你确定的 Streak 卡片
+    streak_url = (
+        f"{STREAK_BASE}/"
+        f"?user={username}"
+        f"&theme=github-dark"
+        f"&hide_border=true"
+        f"&v={cache_bust}"
+    )
+
+    # 可选：Top Langs（如果你想加就开 SHOW_TOP_LANGS）
+    top_langs_url = (
+        f"{STATS_BASE}/api/top-langs/"
+        f"?username={username}"
+        f"&layout=compact"
+        f"&hide_border=true"
+        f"&langs_count=10"
+        f"&theme=github_dark"
+        f"&v={cache_bust}"
+    )
+
     md = f"""## Abstract
 <p>
-  <img src="https://github-readme-stats.vercel.app/api?username={username}&show_icons=true&hide_border=true&v={cache_bust}" alt="{username}'s Github Stats" width="58%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username={username}&layout=compact&hide_border=true&langs_count=10&v={cache_bust}" alt="{username}'s Top Langs" width="37%" />
+  <img src="{stats_url}" alt="{username}'s Github Stats" width="58%" />
+  <img src="{streak_url}" alt="{username}'s GitHub Streak" width="40%" />
 </p>
+"""
 
+    if SHOW_TOP_LANGS:
+        md += f"""
+<p>
+  <img src="{top_langs_url}" alt="{username}'s Top Langs" width="45%" />
+</p>
+"""
+
+    md += f"""
 <!-- 活跃度图 -->
 <p>
   <img src="https://github-readme-activity-graph.vercel.app/graph?username={username}&theme=github&v={cache_bust}" width="100%" />
@@ -137,16 +189,18 @@ def render(username: str, repos: list) -> str:
 
 def main():
     if not USERNAME:
-        print("ERROR: 请在仓库 Secrets 里设置 MY_GITHUB_USERNAME", file=sys.stderr)
+        print("ERROR: Please set GITHUB_USERNAME in repository secrets.", file=sys.stderr)
         sys.exit(2)
+
     if not TOKEN:
-        log("WARN: 未提供 PAT（MY_GITHUB_PAT），将只能统计公开仓库；不过技能图标已固定不受影响")
+        log("WARN: No GITHUB_PAT provided; only public repositories will be counted and skill icons remain static.")
 
     repos = fetch_all_repos(USERNAME)
     md = render(USERNAME, repos)
 
     with open("README.md", "w", encoding="utf-8") as f:
         f.write(md)
+
     log("WRITE README.md -> OK")
 
 if __name__ == "__main__":
