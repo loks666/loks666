@@ -2,22 +2,22 @@
 
 <!-- ① 第一行：奖杯墙（更大） -->
 <p align="center">
-  <img src="https://github-profile-trophy-flame.vercel.app/?username=loks666&theme=darkhub&title=-Reviews&v=20260203114738" alt="loks666's Trophies" width="100%" />
+  <img src="https://github-profile-trophy-flame.vercel.app/?username=loks666&theme=darkhub&title=-Reviews&v=20260203115016" alt="loks666's Trophies" width="100%" />
 </p>
 
 <!-- ② 第二行：Streak（你图里 3060 那张，缩小一些） -->
 <p align="center">
-  <img src="https://github-readme-streak-stats-delta-green.vercel.app/?user=loks666&theme=github-dark&hide_border=true&v=20260203114738" alt="loks666's GitHub Streak" width="78%" />
+  <img src="https://github-readme-streak-stats-delta-green.vercel.app/?user=loks666&theme=github-dark&hide_border=true&v=20260203115016" alt="loks666's GitHub Streak" width="100%" />
 </p>
 
 <!-- ③ 第三行：Stats（A- 那张，缩小一些） -->
 <p align="center">
-  <img src="https://github-readme-stats-phi-rouge.vercel.app/api?username=loks666&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=github_dark&v=20260203114738" alt="loks666's Github Stats" width="78%" />
+  <img src="https://github-readme-stats-phi-rouge.vercel.app/api?username=loks666&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=github_dark&v=20260203115016" alt="loks666's Github Stats" width="100%" />
 </p>
 
 <!-- 活跃度图 -->
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=loks666&theme=github&v=20260203114738" width="100%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=loks666&theme=github&v=20260203115016" width="100%" />
 </p>
 
 ![skills](https://skillicons.dev/icons?i=c,cpp,go,py,html,css,js,nodejs,java,md,pytorch,tensorflow,flask,fastapi,express,qt,react,cmake,docker,git,linux,nginx,mysql,redis,sqlite,githubactions,heroku,vercel,visualstudio,vscode)
@@ -40,7 +40,7 @@
 ## Recent Updates
 |Project|Description|Last Update|
 |:--|:--|:--|
-|[loks666](https://github.com/loks666/loks666)|Automatically update your GitHub profile with GitHub Actions.|![2026-02-03 03:40:14](https://img.shields.io/badge/2026--02--03-03%3A40%3A14-brightgreen?style=flat-square)|
+|[loks666](https://github.com/loks666/loks666)|Automatically update your GitHub profile with GitHub Actions.|![2026-02-03 03:48:50](https://img.shields.io/badge/2026--02--03-03%3A48%3A50-brightgreen?style=flat-square)|
 |[github-profile-trophy (fork)](https://github.com/loks666/github-profile-trophy)|🏆 Add dynamically generated GitHub Stat Trophies  on your readme|![2026-01-31 23:49:07](https://img.shields.io/badge/2026--01--31-23%3A49%3A07-brightgreen?style=flat-square)|
 |[github-readme-stats (fork)](https://github.com/loks666/github-readme-stats)|:zap: Dynamically generated stats for your github readmes|![2026-01-31 00:41:27](https://img.shields.io/badge/2026--01--31-00%3A41%3A27-brightgreen?style=flat-square)|
 |[pacman-engine](https://github.com/loks666/pacman-engine)|pacman agent|![2026-01-30 22:30:15](https://img.shields.io/badge/2026--01--30-22%3A30%3A15-brightgreen?style=flat-square)|
@@ -52,4 +52,4 @@
 |[autojs_tools](https://github.com/loks666/autojs_tools)||![2025-10-08 10:41:03](https://img.shields.io/badge/2025--10--08-10%3A41%3A03-brightgreen?style=flat-square)|
 
 
-*Last updated on: 2026-02-03 11:47:38*
+*Last updated on: 2026-02-03 11:50:16*
