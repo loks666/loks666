@@ -19,8 +19,8 @@ jobs:
     runs-on: ubuntu-latest
     env:
       TZ: Asia/Shanghai
-      GITHUB_USERNAME: ${{ secrets.MY_GITHUB_USERNAME }}
-      GITHUB_PAT: ${{ secrets.MY_GITHUB_PAT }}
+      MY_GITHUB_USERNAME: ${{ secrets.MY_GITHUB_USERNAME }}
+      MY_GITHUB_PAT: ${{ secrets.MY_GITHUB_PAT }}
 
     steps:
       - name: Checkout
