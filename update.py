@@ -148,7 +148,6 @@ def render(username: str, repos: list) -> str:
         )
 
     # ========= 你要的排版：奖杯（大）→ streak（小）→ stats（小） =========
-    # 你可自行微调：streak/stats width 78% -> 70%/85% 都行
     md = f"""## Abstract
 
 <!-- ① 第一行：奖杯墙（更大） -->
@@ -158,19 +157,19 @@ def render(username: str, repos: list) -> str:
 
 <!-- ② 第二行：Streak（你图里 3060 那张，缩小一些） -->
 <p align="center">
-  <img src="{streak_url}" alt="{username}'s GitHub Streak" width="78%" />
+  <img src="{streak_url}" alt="{username}'s GitHub Streak" width="100%" />
 </p>
 
 <!-- ③ 第三行：Stats（A- 那张，缩小一些） -->
 <p align="center">
-  <img src="{stats_url}" alt="{username}'s Github Stats" width="78%" />
+  <img src="{stats_url}" alt="{username}'s Github Stats" width="100%" />
 </p>
 """
 
     if SHOW_TOP_LANGS:
         md += f"""
 <p align="center">
-  <img src="{top_langs_url}" alt="{username}'s Top Langs" width="78%" />
+  <img src="{top_langs_url}" alt="{username}'s Top Langs" width="100%" />
 </p>
 """
 
