@@ -1,15 +1,23 @@
 ## Abstract
-<p>
-  <img src="https://github-readme-stats-phi-rouge.vercel.app/api?username=loks666&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=github_dark&v=20260203084654" alt="loks666's Github Stats" width="58%" />
-  <img src="https://github-readme-streak-stats-delta-green.vercel.app/?user=loks666&theme=github-dark&hide_border=true&v=20260203084654" alt="loks666's GitHub Streak" width="40%" />
+
+<!-- ✅ 一行一个：Stats -->
+<p align="center">
+  <img src="https://github-readme-stats-phi-rouge.vercel.app/api?username=loks666&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=github_dark&v=20260203090103" alt="loks666's Github Stats" width="100%" />
 </p>
 
-<p>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=loks666&theme=github&v=20260203084654" width="100%" />
+<!-- ✅ 一行一个：Streak -->
+<p align="center">
+  <img src="https://github-readme-streak-stats-delta-green.vercel.app/?user=loks666&theme=github-dark&hide_border=true&v=20260203090103" alt="loks666's GitHub Streak" width="100%" />
 </p>
 
-<p>
-  <img src="https://github-profile-trophy.vercel.app/?username=loks666&theme=gruvbox&row=1&column=7&v=20260203084654" width="100%" />
+<!-- 活跃度图 -->
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=loks666&theme=github&v=20260203090103" width="100%" />
+</p>
+
+<!-- ✅ 奖杯墙：修复后不会再出现空白裂图 -->
+<p align="center">
+  <img src="https://github-profile-trophy-flame.vercel.app/?username=loks666&theme=gruvbox&row=1&column=7&no-frame=true&no-bg=true&v=20260203090103" width="100%" />
 </p>
 
 ![skills](https://skillicons.dev/icons?i=c,cpp,go,py,html,css,js,nodejs,java,md,pytorch,tensorflow,flask,fastapi,express,qt,react,cmake,docker,git,linux,nginx,mysql,redis,sqlite,githubactions,heroku,vercel,visualstudio,vscode)
@@ -32,7 +40,8 @@
 ## Recent Updates
 |Project|Description|Last Update|
 |:--|:--|:--|
-|[loks666](https://github.com/loks666/loks666)|Automatically update your GitHub profile with GitHub Actions.|![2026-02-03 00:46:31](https://img.shields.io/badge/2026--02--03-00%3A46%3A31-brightgreen?style=flat-square)|
+|[loks666](https://github.com/loks666/loks666)|Automatically update your GitHub profile with GitHub Actions.|![2026-02-03 00:58:19](https://img.shields.io/badge/2026--02--03-00%3A58%3A19-brightgreen?style=flat-square)|
+|[github-profile-trophy (fork)](https://github.com/loks666/github-profile-trophy)|🏆 Add dynamically generated GitHub Stat Trophies  on your readme|![2026-01-31 23:49:07](https://img.shields.io/badge/2026--01--31-23%3A49%3A07-brightgreen?style=flat-square)|
 |[github-readme-stats (fork)](https://github.com/loks666/github-readme-stats)|:zap: Dynamically generated stats for your github readmes|![2026-01-31 00:41:27](https://img.shields.io/badge/2026--01--31-00%3A41%3A27-brightgreen?style=flat-square)|
 |[pacman-engine](https://github.com/loks666/pacman-engine)|pacman agent|![2026-01-30 22:30:15](https://img.shields.io/badge/2026--01--30-22%3A30%3A15-brightgreen?style=flat-square)|
 |[get_jobs](https://github.com/loks666/get_jobs)|💼【AI找工作助手】全平台自动投简历脚本：(boss、前程无忧、猎聘、智联招聘)|![2026-01-30 14:54:33](https://img.shields.io/badge/2026--01--30-14%3A54%3A33-brightgreen?style=flat-square)|
@@ -41,7 +50,6 @@
 |[anyrouter-autolog (fork)](https://github.com/loks666/anyrouter-autolog)|🤖AnyRouter多账号签到。|![2025-10-17 17:53:44](https://img.shields.io/badge/2025--10--17-17%3A53%3A44-brightgreen?style=flat-square)|
 |[zhipurag](https://github.com/loks666/zhipurag)|SSE调用智谱RAG|![2025-10-10 06:24:29](https://img.shields.io/badge/2025--10--10-06%3A24%3A29-brightgreen?style=flat-square)|
 |[autojs_tools](https://github.com/loks666/autojs_tools)||![2025-10-08 10:41:03](https://img.shields.io/badge/2025--10--08-10%3A41%3A03-brightgreen?style=flat-square)|
-|[Wechatsync (fork)](https://github.com/loks666/Wechatsync)|一键同步文章到多个内容平台，支持今日头条、WordPress、知乎、简书、掘金、CSDN、typecho各大平台，一次发布，多平台同步发布。解放个人生产力|![2025-10-03 23:05:18](https://img.shields.io/badge/2025--10--03-23%3A05%3A18-brightgreen?style=flat-square)|
 
 
-*Last updated on: 2026-02-03 08:46:54*
+*Last updated on: 2026-02-03 09:01:03*
