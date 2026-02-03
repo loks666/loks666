@@ -21,6 +21,7 @@ jobs:
       TZ: Asia/Shanghai
       MY_GITHUB_USERNAME: ${{ secrets.MY_GITHUB_USERNAME }}
       MY_GITHUB_PAT: ${{ secrets.MY_GITHUB_PAT }}
+      TROPHY_BASE: https://github-profile-trophy-flame.vercel.app/
 
     steps:
       - name: Checkout

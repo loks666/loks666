@@ -4,7 +4,7 @@ import sys
 import datetime
 import requests
 
-# ========= 只读取两个环境变量 =========
+# ========= 环境变量（只保留你要的两个 + 可选 TROPHY_BASE） =========
 USERNAME = os.getenv("MY_GITHUB_USERNAME")
 TOKEN = os.getenv("MY_GITHUB_PAT")
 
@@ -18,10 +18,7 @@ def log(*args):
     print("[UPDATE_PROFILE]", *args, flush=True)
 
 def headers():
-    h = {
-        "Accept": "application/vnd.github+json",
-        "X-GitHub-Api-Version": "2022-11-28",
-    }
+    h = {"Accept": "application/vnd.github+json", "X-GitHub-Api-Version": "2022-11-28"}
     if TOKEN:
         h["Authorization"] = f"Bearer {TOKEN}"
     return h
@@ -35,18 +32,14 @@ def get_json(url, what):
         r.raise_for_status()
     return r.json()
 
+# ---------- 拉取仓库 ----------
 def fetch_all_repos(username: str):
     """
-    有 TOKEN：/user/repos 拉所有可见仓库（含 private、协作等）
-    无 TOKEN：/users/{username}/repos 只能拉公开
+    需要 TOKEN：/user/repos?visibility=all&affiliation=owner,collaborator,organization_member
     """
     repos, page = [], 1
-    if TOKEN:
-        base = "https://api.github.com/user/repos"
-        extra = "&visibility=all&affiliation=owner,collaborator,organization_member&sort=updated"
-    else:
-        base = f"https://api.github.com/users/{username}/repos"
-        extra = "&type=owner&sort=updated"
+    base = "https://api.github.com/user/repos"
+    extra = "&visibility=all&affiliation=owner,collaborator,organization_member&sort=updated"
 
     while True:
         url = f"{base}?per_page=100&page={page}{extra}"
@@ -59,26 +52,31 @@ def fetch_all_repos(username: str):
     log(f"total repos fetched = {len(repos)}")
     return repos
 
+# ---------- 渲染 ----------
 def parse_iso(iso_str: str) -> datetime.datetime:
     return datetime.datetime.strptime(iso_str, "%Y-%m-%dT%H:%M:%SZ")
 
 def fmt_dt_human_slug(dt: datetime.datetime) -> tuple[str, str]:
     s = dt.strftime("%Y-%m-%d %H:%M:%S")
-    slug = s.replace("-", "--").replace(" ", "-").replace(":", "%3A")
+    slug = s.replace('-', '--').replace(' ', '-').replace(':', '%3A')
     return s, slug
 
 STATIC_SKILL_ICONS = os.getenv(
     "SKILL_ICONS_STATIC",
-    "https://skillicons.dev/icons?i=c,cpp,go,py,html,css,js,nodejs,java,md,pytorch,tensorflow,flask,fastapi,express,qt,react,cmake,docker,git,linux,nginx,mysql,redis,sqlite,githubactions,heroku,vercel,visualstudio,vscode",
+    "https://skillicons.dev/icons?i=c,cpp,go,py,html,css,js,nodejs,java,md,pytorch,tensorflow,flask,fastapi,express,qt,react,cmake,docker,git,linux,nginx,mysql,redis,sqlite,githubactions,heroku,vercel,visualstudio,vscode"
 )
 
 # 你已确定的两个自部署链接（固定）
 STATS_BASE = "https://github-readme-stats-phi-rouge.vercel.app"
 STREAK_BASE = "https://github-readme-streak-stats-delta-green.vercel.app"
 
+# ✅ 你的 Trophy 自部署域名（建议在 workflow env 里传 TROPHY_BASE）
+# 例如：https://github-profile-trophy-flame.vercel.app
+TROPHY_BASE = os.getenv("TROPHY_BASE", "").rstrip("/")
+
 def render(username: str, repos: list) -> str:
     now = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    cache_bust = now.replace(" ", "").replace(":", "").replace("-", "")
+    cache_bust = now.replace(' ', '').replace(':', '').replace('-', '')
 
     processed = []
     for repo in repos:
@@ -88,7 +86,7 @@ def render(username: str, repos: list) -> str:
         processed.append({
             "name": repo.get("name"),
             "link": repo.get("html_url"),
-            "desc": (repo.get("description") or "").replace("|", "\\|").strip(),
+            "desc": (repo.get("description") or "").replace('|', '\\|').strip(),
             "star": repo.get("stargazers_count", 0),
             "pushed_dt": dt,
             "pushed_human": pushed_human,
@@ -97,6 +95,7 @@ def render(username: str, repos: list) -> str:
             "fork": repo.get("fork", False),
         })
 
+    # Top / Recent：只统计公开仓库（fork 保留）
     public_processed = [r for r in processed if not r["private"]]
     top = sorted(public_processed, key=lambda x: x["star"], reverse=True)[:TOP_REPO_NUM]
     recent = sorted(public_processed, key=lambda x: x["pushed_dt"], reverse=True)[:RECENT_REPO_NUM]
@@ -130,27 +129,55 @@ def render(username: str, repos: list) -> str:
         f"&v={cache_bust}"
     )
 
+    # ✅ Trophy：关键修复点 —— 必须带 username 参数
+    trophy_url = ""
+    if TROPHY_BASE:
+        trophy_url = (
+            f"{TROPHY_BASE}/"
+            f"?username={username}"
+            f"&theme=gruvbox"
+            f"&row=1"
+            f"&column=7"
+            f"&no-frame=true"
+            f"&no-bg=true"
+            f"&v={cache_bust}"
+        )
+    else:
+        # 兜底：用公共服务（不推荐，但不至于裂图）
+        trophy_url = (
+            f"https://github-profile-trophy.vercel.app/"
+            f"?username={username}&theme=gruvbox&row=1&column=7&v={cache_bust}"
+        )
+
     md = f"""## Abstract
-<p>
-  <img src="{stats_url}" alt="{username}'s Github Stats" width="58%" />
-  <img src="{streak_url}" alt="{username}'s GitHub Streak" width="40%" />
+
+<!-- ✅ 一行一个：Stats -->
+<p align="center">
+  <img src="{stats_url}" alt="{username}'s Github Stats" width="100%" />
+</p>
+
+<!-- ✅ 一行一个：Streak -->
+<p align="center">
+  <img src="{streak_url}" alt="{username}'s GitHub Streak" width="100%" />
 </p>
 """
 
     if SHOW_TOP_LANGS:
         md += f"""
-<p>
-  <img src="{top_langs_url}" alt="{username}'s Top Langs" width="45%" />
+<p align="center">
+  <img src="{top_langs_url}" alt="{username}'s Top Langs" width="100%" />
 </p>
 """
 
     md += f"""
-<p>
+<!-- 活跃度图 -->
+<p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username={username}&theme=github&v={cache_bust}" width="100%" />
 </p>
 
-<p>
-  <img src="https://github-profile-trophy.vercel.app/?username={username}&theme=gruvbox&row=1&column=7&v={cache_bust}" width="100%" />
+<!-- ✅ 奖杯墙：修复后不会再出现空白裂图 -->
+<p align="center">
+  <img src="{trophy_url}" width="100%" />
 </p>
 
 ![skills]({STATIC_SKILL_ICONS})
@@ -186,6 +213,7 @@ def main():
 
     with open("README.md", "w", encoding="utf-8") as f:
         f.write(md)
+
     log("WRITE README.md -> OK")
 
 if __name__ == "__main__":
