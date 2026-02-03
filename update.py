@@ -14,14 +14,17 @@ RECENT_REPO_NUM = int(os.getenv("RECENT_REPO_NUM", "10"))
 # 是否显示 Top Langs（默认不显示）
 SHOW_TOP_LANGS = (os.getenv("SHOW_TOP_LANGS", "false").strip().lower() in ("1", "true", "yes", "y"))
 
+
 def log(*args):
     print("[UPDATE_PROFILE]", *args, flush=True)
+
 
 def headers():
     h = {"Accept": "application/vnd.github+json", "X-GitHub-Api-Version": "2022-11-28"}
     if TOKEN:
         h["Authorization"] = f"Bearer {TOKEN}"
     return h
+
 
 def get_json(url, what):
     log(f"GET {what}: {url}")
@@ -31,6 +34,7 @@ def get_json(url, what):
         log(f" !! non-200: {r.text[:200]}")
         r.raise_for_status()
     return r.json()
+
 
 # ---------- 拉取仓库 ----------
 def fetch_all_repos(username: str):
@@ -52,48 +56,52 @@ def fetch_all_repos(username: str):
     log(f"total repos fetched = {len(repos)}")
     return repos
 
+
 # ---------- 渲染 ----------
 def parse_iso(iso_str: str) -> datetime.datetime:
     return datetime.datetime.strptime(iso_str, "%Y-%m-%dT%H:%M:%SZ")
 
+
 def fmt_dt_human_slug(dt: datetime.datetime) -> tuple[str, str]:
     s = dt.strftime("%Y-%m-%d %H:%M:%S")
-    slug = s.replace('-', '--').replace(' ', '-').replace(':', '%3A')
+    slug = s.replace("-", "--").replace(" ", "-").replace(":", "%3A")
     return s, slug
+
 
 STATIC_SKILL_ICONS = os.getenv(
     "SKILL_ICONS_STATIC",
-    "https://skillicons.dev/icons?i=c,cpp,go,py,html,css,js,nodejs,java,md,pytorch,tensorflow,flask,fastapi,express,qt,react,cmake,docker,git,linux,nginx,mysql,redis,sqlite,githubactions,heroku,vercel,visualstudio,vscode"
+    "https://skillicons.dev/icons?i=c,cpp,go,py,html,css,js,nodejs,java,md,pytorch,tensorflow,flask,fastapi,express,qt,react,cmake,docker,git,linux,nginx,mysql,redis,sqlite,githubactions,heroku,vercel,visualstudio,vscode",
 )
 
 # 你已确定的两个自部署链接（固定）
 STATS_BASE = "https://github-readme-stats-phi-rouge.vercel.app"
 STREAK_BASE = "https://github-readme-streak-stats-delta-green.vercel.app"
 
-# ✅ 你的 Trophy 自部署域名（建议在 workflow env 里传 TROPHY_BASE）
-# 例如：https://github-profile-trophy-flame.vercel.app
 TROPHY_BASE = os.getenv("TROPHY_BASE", "").rstrip("/")
+
 
 def render(username: str, repos: list) -> str:
     now = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    cache_bust = now.replace(' ', '').replace(':', '').replace('-', '')
+    cache_bust = now.replace(" ", "").replace(":", "").replace("-", "")
 
     processed = []
     for repo in repos:
         pushed_iso = repo.get("pushed_at") or repo.get("updated_at") or repo.get("created_at")
         dt = parse_iso(pushed_iso)
         pushed_human, pushed_slug = fmt_dt_human_slug(dt)
-        processed.append({
-            "name": repo.get("name"),
-            "link": repo.get("html_url"),
-            "desc": (repo.get("description") or "").replace('|', '\\|').strip(),
-            "star": repo.get("stargazers_count", 0),
-            "pushed_dt": dt,
-            "pushed_human": pushed_human,
-            "pushed_slug": pushed_slug,
-            "private": repo.get("private", False),
-            "fork": repo.get("fork", False),
-        })
+        processed.append(
+            {
+                "name": repo.get("name"),
+                "link": repo.get("html_url"),
+                "desc": (repo.get("description") or "").replace("|", "\\|").strip(),
+                "star": repo.get("stargazers_count", 0),
+                "pushed_dt": dt,
+                "pushed_human": pushed_human,
+                "pushed_slug": pushed_slug,
+                "private": repo.get("private", False),
+                "fork": repo.get("fork", False),
+            }
+        )
 
     # Top / Recent：只统计公开仓库（fork 保留）
     public_processed = [r for r in processed if not r["private"]]
@@ -129,7 +137,6 @@ def render(username: str, repos: list) -> str:
         f"&v={cache_bust}"
     )
 
-    # ✅ Trophy：关键修复点 —— 必须带 username 参数
     trophy_url = ""
     if TROPHY_BASE:
         trophy_url = (
@@ -140,23 +147,30 @@ def render(username: str, repos: list) -> str:
             f"&v={cache_bust}"
         )
 
+    # ========= 你要的排版：奖杯（大）→ streak（小）→ stats（小） =========
+    # 你可自行微调：streak/stats width 78% -> 70%/85% 都行
     md = f"""## Abstract
 
-<!-- ✅ 一行一个：Stats -->
+<!-- ① 第一行：奖杯墙（更大） -->
 <p align="center">
-  <img src="{stats_url}" alt="{username}'s Github Stats" width="100%" />
+  <img src="{trophy_url}" alt="{username}'s Trophies" width="100%" />
 </p>
 
-<!-- ✅ 一行一个：Streak -->
+<!-- ② 第二行：Streak（你图里 3060 那张，缩小一些） -->
 <p align="center">
-  <img src="{streak_url}" alt="{username}'s GitHub Streak" width="100%" />
+  <img src="{streak_url}" alt="{username}'s GitHub Streak" width="78%" />
+</p>
+
+<!-- ③ 第三行：Stats（A- 那张，缩小一些） -->
+<p align="center">
+  <img src="{stats_url}" alt="{username}'s Github Stats" width="78%" />
 </p>
 """
 
     if SHOW_TOP_LANGS:
         md += f"""
 <p align="center">
-  <img src="{top_langs_url}" alt="{username}'s Top Langs" width="100%" />
+  <img src="{top_langs_url}" alt="{username}'s Top Langs" width="78%" />
 </p>
 """
 
@@ -164,11 +178,6 @@ def render(username: str, repos: list) -> str:
 <!-- 活跃度图 -->
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username={username}&theme=github&v={cache_bust}" width="100%" />
-</p>
-
-<!-- ✅ 奖杯墙：修复后不会再出现空白裂图 -->
-<p align="center">
-  <img src="{trophy_url}" width="100%" />
 </p>
 
 ![skills]({STATIC_SKILL_ICONS})
@@ -189,15 +198,23 @@ def render(username: str, repos: list) -> str:
 """
     for r in recent:
         name = f"{r['name']}{' (fork)' if r['fork'] else ''}"
-        md += f"|[{name}]({r['link']})|{r['desc']}|![{r['pushed_human']}](https://img.shields.io/badge/{r['pushed_slug']}-brightgreen?style=flat-square)|\n"
+        md += (
+            f"|[{name}]({r['link']})|{r['desc']}|"
+            f"![{r['pushed_human']}](https://img.shields.io/badge/{r['pushed_slug']}-brightgreen?style=flat-square)|\n"
+        )
 
     md += f"\n\n*Last updated on: {now}*\n"
     return md
+
 
 def main():
     if not USERNAME or not TOKEN:
         print("ERROR: Please set MY_GITHUB_USERNAME and MY_GITHUB_PAT in repository secrets.", file=sys.stderr)
         sys.exit(2)
+
+    if not TROPHY_BASE:
+        # 你现在用自部署，这里不强制，但给个明确提示，避免裂图
+        log("WARN: TROPHY_BASE is empty; trophy_url will be empty and image may break.")
 
     repos = fetch_all_repos(USERNAME)
     md = render(USERNAME, repos)
@@ -206,6 +223,7 @@ def main():
         f.write(md)
 
     log("WRITE README.md -> OK")
+
 
 if __name__ == "__main__":
     try:
