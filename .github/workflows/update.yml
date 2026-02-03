@@ -9,6 +9,11 @@ on:
     - cron: "0 17 * * *"
   workflow_dispatch:
 
+# 🚫 防止并发 + 自己提交又触发自己
+concurrency:
+  group: update-profile
+  cancel-in-progress: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -16,13 +21,16 @@ jobs:
       TZ: Asia/Shanghai
       GITHUB_USERNAME: ${{ secrets.GITHUB_USERNAME }}
       GITHUB_PAT: ${{ secrets.GITHUB_PAT }}
+
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          fetch-depth: 1
           persist-credentials: true
 
-      - uses: actions/setup-python@v5
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
@@ -34,20 +42,17 @@ jobs:
       - name: Run update.py
         run: python ./update.py
 
-      - name: Commit & push with rebase
+      - name: Commit & push README (no rebase)
         run: |
           set -e
+
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           if [[ -n "$(git status --porcelain README.md)" ]]; then
             git add README.md
-            git commit -m ":book: update by GitHub Actions" || true
+            git commit -m ":book: update by GitHub Actions"
+            git push
           else
             echo "No changes to commit"
           fi
-
-          BRANCH="${GITHUB_REF_NAME:-$(git rev-parse --abbrev-ref HEAD)}"
-          git fetch origin "${BRANCH}"
-          git pull --rebase origin "${BRANCH}"
-          git push origin "${BRANCH}"
