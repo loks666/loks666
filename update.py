@@ -135,18 +135,9 @@ def render(username: str, repos: list) -> str:
         trophy_url = (
             f"{TROPHY_BASE}/"
             f"?username={username}"
-            f"&theme=gruvbox"
-            f"&row=1"
-            f"&column=7"
-            f"&no-frame=true"
-            f"&no-bg=true"
+            f"&theme=darkhub"
+            f"&title=-Reviews"
             f"&v={cache_bust}"
-        )
-    else:
-        # 兜底：用公共服务（不推荐，但不至于裂图）
-        trophy_url = (
-            f"https://github-profile-trophy.vercel.app/"
-            f"?username={username}&theme=gruvbox&row=1&column=7&v={cache_bust}"
         )
 
     md = f"""## Abstract
