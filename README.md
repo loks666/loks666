@@ -2,22 +2,22 @@
 
 <!-- ① 第一行：奖杯墙（更大） -->
 <p align="center">
-  <img src="https://github-profile-trophy-flame.vercel.app/?username=loks666&theme=darkhub&title=-Reviews&v=20260316011006" alt="loks666's Trophies" width="100%" />
+  <img src="https://github-profile-trophy-flame.vercel.app/?username=loks666&theme=darkhub&title=-Reviews&v=20260317012642" alt="loks666's Trophies" width="100%" />
 </p>
 
 <!-- ② 第二行：Streak（你图里 3060 那张，缩小一些） -->
 <p align="center">
-  <img src="https://github-readme-streak-stats-delta-green.vercel.app/?user=loks666&theme=github-dark&hide_border=true&v=20260316011006" alt="loks666's GitHub Streak" width="100%" />
+  <img src="https://github-readme-streak-stats-delta-green.vercel.app/?user=loks666&theme=github-dark&hide_border=true&v=20260317012642" alt="loks666's GitHub Streak" width="100%" />
 </p>
 
 <!-- ③ 第三行：Stats（A- 那张，缩小一些） -->
 <p align="center">
-  <img src="https://github-readme-stats-phi-rouge.vercel.app/api?username=loks666&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=github_dark&v=20260316011006" alt="loks666's Github Stats" width="100%" />
+  <img src="https://github-readme-stats-phi-rouge.vercel.app/api?username=loks666&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=github_dark&v=20260317012642" alt="loks666's Github Stats" width="100%" />
 </p>
 
 <!-- 活跃度图 -->
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=loks666&theme=github&v=20260316011006" width="100%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=loks666&theme=github&v=20260317012642" width="100%" />
 </p>
 
 ![skills](https://skillicons.dev/icons?i=c,cpp,go,py,html,css,js,nodejs,java,md,pytorch,tensorflow,flask,fastapi,express,qt,react,cmake,docker,git,linux,nginx,mysql,redis,sqlite,githubactions,heroku,vercel,visualstudio,vscode)
@@ -25,7 +25,7 @@
 ## Top Projects
 |Project|Description|Stars|
 |:--|:--|:--|
-|[get_jobs](https://github.com/loks666/get_jobs)|💼【AI找工作助手】全平台自动投简历脚本：(boss、前程无忧、猎聘、智联招聘)|`6059⭐`|
+|[get_jobs](https://github.com/loks666/get_jobs)|💼【AI找工作助手】全平台自动投简历脚本：(boss、前程无忧、猎聘、智联招聘)|`6077⭐`|
 |[niubaide_im](https://github.com/loks666/niubaide_im)|牛掰的即时通讯(Uniapp + SpringBoot + Netty)|`33⭐`|
 |[idm_crack](https://github.com/loks666/idm_crack)|This is a repository for backing up idm crack files，这是一个备份IDM破解文件的仓库|`32⭐`|
 |[anyrouter-autolog (fork)](https://github.com/loks666/anyrouter-autolog)|🤖AnyRouter多账号签到。|`27⭐`|
@@ -40,7 +40,7 @@
 ## Recent Updates
 |Project|Description|Last Update|
 |:--|:--|:--|
-|[loks666](https://github.com/loks666/loks666)|自动化统计你的github数据并更新描述文件|![2026-03-14 17:09:40](https://img.shields.io/badge/2026--03--14-17%3A09%3A40-brightgreen?style=flat-square)|
+|[loks666](https://github.com/loks666/loks666)|自动化统计你的github数据并更新描述文件|![2026-03-15 17:10:07](https://img.shields.io/badge/2026--03--15-17%3A10%3A07-brightgreen?style=flat-square)|
 |[infra (fork)](https://github.com/loks666/infra)|Infrastructure that's powering E2B Cloud.|![2026-03-10 23:15:29](https://img.shields.io/badge/2026--03--10-23%3A15%3A29-brightgreen?style=flat-square)|
 |[anyrouter-autolog (fork)](https://github.com/loks666/anyrouter-autolog)|🤖AnyRouter多账号签到。|![2026-03-04 10:49:18](https://img.shields.io/badge/2026--03--04-10%3A49%3A18-brightgreen?style=flat-square)|
 |[github-profile-trophy (fork)](https://github.com/loks666/github-profile-trophy)|🏆 Add dynamically generated GitHub Stat Trophies  on your readme|![2026-01-31 23:49:07](https://img.shields.io/badge/2026--01--31-23%3A49%3A07-brightgreen?style=flat-square)|
@@ -52,4 +52,4 @@
 |[chatgpt-on-wechat (fork)](https://github.com/loks666/chatgpt-on-wechat)|Wechat robot based on ChatGPT,  which using OpenAI api and itchat library. 使用大模型搭建微信聊天机器人，基于 GPT3.5/GPT4.0/Claude/文心一言/讯飞星火/通义千问/Gemini/LinkAI，支持个人微信、公众号、企业微信、飞书部署，能处理文本、语音和图片，访问操作系统和互联网，支持基于知识库定制专属机器人。|![2025-10-18 16:14:15](https://img.shields.io/badge/2025--10--18-16%3A14%3A15-brightgreen?style=flat-square)|
 
 
-*Last updated on: 2026-03-16 01:10:06*
+*Last updated on: 2026-03-17 01:26:42*
