@@ -2,22 +2,22 @@
 
 <!-- ① 第一行：奖杯墙（更大） -->
 <p align="center">
-  <img src="https://github-profile-trophy-flame.vercel.app/?username=loks666&theme=darkhub&title=-Reviews&v=20260704021358" alt="loks666's Trophies" width="100%" />
+  <img src="https://github-profile-trophy-flame.vercel.app/?username=loks666&theme=darkhub&title=-Reviews&v=20260705020330" alt="loks666's Trophies" width="100%" />
 </p>
 
 <!-- ② 第二行：Streak（你图里 3060 那张，缩小一些） -->
 <p align="center">
-  <img src="https://github-readme-streak-stats-delta-green.vercel.app/?user=loks666&theme=github-dark&hide_border=true&v=20260704021358" alt="loks666's GitHub Streak" width="100%" />
+  <img src="https://github-readme-streak-stats-delta-green.vercel.app/?user=loks666&theme=github-dark&hide_border=true&v=20260705020330" alt="loks666's GitHub Streak" width="100%" />
 </p>
 
 <!-- ③ 第三行：Stats（A- 那张，缩小一些） -->
 <p align="center">
-  <img src="https://github-readme-stats-phi-rouge.vercel.app/api?username=loks666&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=github_dark&v=20260704021358" alt="loks666's Github Stats" width="100%" />
+  <img src="https://github-readme-stats-phi-rouge.vercel.app/api?username=loks666&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=github_dark&v=20260705020330" alt="loks666's Github Stats" width="100%" />
 </p>
 
 <!-- 活跃度图 -->
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=loks666&theme=github&v=20260704021358" width="100%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=loks666&theme=github&v=20260705020330" width="100%" />
 </p>
 
 ![skills](https://skillicons.dev/icons?i=c,cpp,go,py,html,css,js,nodejs,java,md,pytorch,tensorflow,flask,fastapi,express,qt,react,cmake,docker,git,linux,nginx,mysql,redis,sqlite,githubactions,heroku,vercel,visualstudio,vscode)
@@ -25,7 +25,7 @@
 ## Top Projects
 |Project|Description|Stars|
 |:--|:--|:--|
-|[get_jobs](https://github.com/loks666/get_jobs)|💼【AI找工作助手】全平台自动投简历脚本：(boss、前程无忧、猎聘、智联招聘)|`7573⭐`|
+|[get_jobs](https://github.com/loks666/get_jobs)|💼【AI找工作助手】全平台自动投简历脚本：(boss、前程无忧、猎聘、智联招聘)|`7584⭐`|
 |[anyrouter-autolog (fork)](https://github.com/loks666/anyrouter-autolog)|🤖AnyRouter多账号签到。|`80⭐`|
 |[idm_crack](https://github.com/loks666/idm_crack)|This is a repository for backing up idm crack files，这是一个备份IDM破解文件的仓库|`39⭐`|
 |[niubaide_im](https://github.com/loks666/niubaide_im)|牛掰的即时通讯(Uniapp + SpringBoot + Netty)|`33⭐`|
@@ -40,8 +40,8 @@
 ## Recent Updates
 |Project|Description|Last Update|
 |:--|:--|:--|
+|[loks666](https://github.com/loks666/loks666)|自动化统计你的github数据并更新描述文件|![2026-07-03 18:13:59](https://img.shields.io/badge/2026--07--03-18%3A13%3A59-brightgreen?style=flat-square)|
 |[clawgod (fork)](https://github.com/loks666/clawgod)|This is NOT a third-party Claude Code client. ClawGod is a runtime patch applied on top of the official Claude Code. It works with any version — as Claude Code updates, the patch continues to take effect|![2026-07-03 10:11:16](https://img.shields.io/badge/2026--07--03-10%3A11%3A16-brightgreen?style=flat-square)|
-|[loks666](https://github.com/loks666/loks666)|自动化统计你的github数据并更新描述文件|![2026-07-02 17:35:22](https://img.shields.io/badge/2026--07--02-17%3A35%3A22-brightgreen?style=flat-square)|
 |[DailyPunch (fork)](https://github.com/loks666/DailyPunch)|钉钉等考勤设备自动打卡|![2026-06-24 01:58:54](https://img.shields.io/badge/2026--06--24-01%3A58%3A54-brightgreen?style=flat-square)|
 |[openclaw (fork)](https://github.com/loks666/openclaw)|Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞|![2026-03-18 14:44:54](https://img.shields.io/badge/2026--03--18-14%3A44%3A54-brightgreen?style=flat-square)|
 |[infra (fork)](https://github.com/loks666/infra)|Infrastructure that's powering E2B Cloud.|![2026-03-10 23:15:29](https://img.shields.io/badge/2026--03--10-23%3A15%3A29-brightgreen?style=flat-square)|
@@ -52,4 +52,4 @@
 |[pacman-engine](https://github.com/loks666/pacman-engine)|搜索与启发式规划AI智能体，开发智能体让他自动玩游戏|![2026-01-30 22:30:15](https://img.shields.io/badge/2026--01--30-22%3A30%3A15-brightgreen?style=flat-square)|
 
 
-*Last updated on: 2026-07-04 02:13:58*
+*Last updated on: 2026-07-05 02:03:30*
