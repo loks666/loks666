@@ -113,7 +113,7 @@ def render(username: str, repos: list) -> str:
         f"?username={username}"
         f"&show_icons=true"
         f"&include_all_commits=true"
-        f"&count_private=true"
+        f"&count_private=false"
         f"&hide_border=true"
         f"&theme=github_dark"
         f"&v={cache_bust}"
@@ -174,12 +174,16 @@ def render(username: str, repos: list) -> str:
 """
 
     md += f"""
-<!-- 活跃度图 -->
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username={username}&theme=github&v={cache_bust}" width="100%" />
+  <img src="{STATIC_SKILL_ICONS}" alt="skills" />
 </p>
 
-![skills]({STATIC_SKILL_ICONS})
+<!-- 贪吃蛇贡献图（位于 Top Projects 上方） -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/{username}/{username}/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/{username}/{username}/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/{username}/{username}/output/github-contribution-grid-snake.svg" width="100%" />
+</picture>
 
 ## Top Projects
 |Project|Description|Stars|
@@ -203,15 +207,6 @@ def render(username: str, repos: list) -> str:
         )
 
     md += f"\n\n*Last updated on: {now}*\n"
-    md += f"""
-## Contribution Snake
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/{username}/{username}/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/{username}/{username}/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/{username}/{username}/output/github-contribution-grid-snake.svg" width="100%" />
-</picture>
-"""
     return md
 
 
