@@ -73,9 +73,10 @@ STATIC_SKILL_ICONS = os.getenv(
     "https://skillicons.dev/icons?i=c,cpp,go,py,html,css,js,nodejs,java,md,pytorch,tensorflow,flask,fastapi,express,qt,react,cmake,docker,git,linux,nginx,mysql,redis,sqlite,githubactions,heroku,vercel,visualstudio,vscode",
 )
 
-# 你已确定的两个自部署链接（固定）
+# 你已确定的三个自部署链接（固定）
 STATS_BASE = "https://github-readme-stats-phi-rouge.vercel.app"
 STREAK_BASE = "https://github-readme-streak-stats-delta-green.vercel.app"
+GRAPH_BASE = "https://github-readme-activity-graph-indol-phi.vercel.app"
 
 TROPHY_BASE = os.getenv("TROPHY_BASE", "").rstrip("/")
 
@@ -176,7 +177,7 @@ def render(username: str, repos: list) -> str:
     md += f"""
 <!-- 活跃度图 -->
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username={username}&theme=github&v={cache_bust}" width="100%" />
+  <img src="{GRAPH_BASE}/graph?username={username}&theme=github&v={cache_bust}" width="100%" />
 </p>
 
 <p align="center">
