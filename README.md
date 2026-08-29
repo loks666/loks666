@@ -2,22 +2,22 @@
 
 <!-- ① 第一行：奖杯墙（更大） -->
 <p align="center">
-  <img src="https://github-profile-trophy-flame.vercel.app/?username=loks666&theme=darkhub&title=-Reviews&v=20260828092018" alt="loks666's Trophies" width="100%" />
+  <img src="https://github-profile-trophy-flame.vercel.app/?username=loks666&theme=darkhub&title=-Reviews&v=20260829085256" alt="loks666's Trophies" width="100%" />
 </p>
 
 <!-- ② 第二行：Streak（你图里 3060 那张，缩小一些） -->
 <p align="center">
-  <img src="https://github-readme-streak-stats-delta-green.vercel.app/?user=loks666&theme=github-dark&hide_border=true&v=20260828092018" alt="loks666's GitHub Streak" width="100%" />
+  <img src="https://github-readme-streak-stats-delta-green.vercel.app/?user=loks666&theme=github-dark&hide_border=true&v=20260829085256" alt="loks666's GitHub Streak" width="100%" />
 </p>
 
 <!-- ③ 第三行：Stats（A- 那张，缩小一些） -->
 <p align="center">
-  <img src="https://github-readme-stats-phi-rouge.vercel.app/api?username=loks666&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=github_dark&v=20260828092018" alt="loks666's Github Stats" width="100%" />
+  <img src="https://github-readme-stats-phi-rouge.vercel.app/api?username=loks666&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=github_dark&v=20260829085256" alt="loks666's Github Stats" width="100%" />
 </p>
 
 <!-- 活跃度图 -->
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=loks666&theme=github&v=20260828092018" width="100%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=loks666&theme=github&v=20260829085256" width="100%" />
 </p>
 
 ![skills](https://skillicons.dev/icons?i=c,cpp,go,py,html,css,js,nodejs,java,md,pytorch,tensorflow,flask,fastapi,express,qt,react,cmake,docker,git,linux,nginx,mysql,redis,sqlite,githubactions,heroku,vercel,visualstudio,vscode)
@@ -25,7 +25,7 @@
 ## Top Projects
 |Project|Description|Stars|
 |:--|:--|:--|
-|[get_jobs](https://github.com/loks666/get_jobs)|💼【AI找工作助手】全平台自动投简历脚本：(boss、前程无忧、猎聘、智联招聘)|`8175⭐`|
+|[get_jobs](https://github.com/loks666/get_jobs)|💼【AI找工作助手】全平台自动投简历脚本：(boss、前程无忧、猎聘、智联招聘)|`8184⭐`|
 |[anyrouter-autolog (fork)](https://github.com/loks666/anyrouter-autolog)|🤖AnyRouter多账号签到。|`88⭐`|
 |[idm_crack](https://github.com/loks666/idm_crack)|This is a repository for backing up idm crack files，这是一个备份IDM破解文件的仓库|`38⭐`|
 |[niubaide_im](https://github.com/loks666/niubaide_im)|牛掰的即时通讯(Uniapp + SpringBoot + Netty)|`33⭐`|
@@ -40,8 +40,9 @@
 ## Recent Updates
 |Project|Description|Last Update|
 |:--|:--|:--|
-|[loks666](https://github.com/loks666/loks666)|自动化统计你的github数据并更新描述文件|![2026-08-26 19:03:26](https://img.shields.io/badge/2026--08--26-19%3A03%3A26-brightgreen?style=flat-square)|
-|[FlyAI](https://github.com/loks666/FlyAI)|微信群聊统计助手，用于AI统计群聊内各项数据与信息推送|![2026-08-25 06:27:06](https://img.shields.io/badge/2026--08--25-06%3A27%3A06-brightgreen?style=flat-square)|
+|[FlyAI](https://github.com/loks666/FlyAI)|微信群聊统计助手，用于AI统计群聊内各项数据与信息推送|![2026-08-28 09:12:52](https://img.shields.io/badge/2026--08--28-09%3A12%3A52-brightgreen?style=flat-square)|
+|[loks666](https://github.com/loks666/loks666)|自动化统计你的github数据并更新描述文件|![2026-08-28 01:20:19](https://img.shields.io/badge/2026--08--28-01%3A20%3A19-brightgreen?style=flat-square)|
+|[wechatauto-replica (fork)](https://github.com/loks666/wechatauto-replica)|Windows WeChat automation for Windows (non-web), wxauto replica supporting WeChat 4.x - Windows 微信客户端自动化（非网页版）复刻版|![2026-08-27 15:28:23](https://img.shields.io/badge/2026--08--27-15%3A28%3A23-brightgreen?style=flat-square)|
 |[codex (fork)](https://github.com/loks666/codex)|Lightweight coding agent that runs in your terminal|![2026-08-24 06:41:28](https://img.shields.io/badge/2026--08--24-06%3A41%3A28-brightgreen?style=flat-square)|
 |[jiuzhang-sdk](https://github.com/JiuZhangLiangZi/jiuzhang-sdk)|用于光量子计算系统的开发SDK，支持量子线路构建、仿真、控制与硬件执行的一体化开发。|![2026-07-30 09:35:51](https://img.shields.io/badge/2026--07--30-09%3A35%3A51-brightgreen?style=flat-square)|
 |[idm_crack](https://github.com/loks666/idm_crack)|This is a repository for backing up idm crack files，这是一个备份IDM破解文件的仓库|![2026-07-06 06:18:26](https://img.shields.io/badge/2026--07--06-06%3A18%3A26-brightgreen?style=flat-square)|
@@ -49,7 +50,6 @@
 |[DailyPunch (fork)](https://github.com/loks666/DailyPunch)|钉钉等考勤设备自动打卡|![2026-06-24 01:58:54](https://img.shields.io/badge/2026--06--24-01%3A58%3A54-brightgreen?style=flat-square)|
 |[openclaw (fork)](https://github.com/loks666/openclaw)|Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞|![2026-03-18 14:44:54](https://img.shields.io/badge/2026--03--18-14%3A44%3A54-brightgreen?style=flat-square)|
 |[infra (fork)](https://github.com/loks666/infra)|Infrastructure that's powering E2B Cloud.|![2026-03-10 23:15:29](https://img.shields.io/badge/2026--03--10-23%3A15%3A29-brightgreen?style=flat-square)|
-|[anyrouter-autolog (fork)](https://github.com/loks666/anyrouter-autolog)|🤖AnyRouter多账号签到。|![2026-03-04 10:49:18](https://img.shields.io/badge/2026--03--04-10%3A49%3A18-brightgreen?style=flat-square)|
 
 
-*Last updated on: 2026-08-28 09:20:18*
+*Last updated on: 2026-08-29 08:52:56*
