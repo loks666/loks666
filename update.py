@@ -174,6 +174,11 @@ def render(username: str, repos: list) -> str:
 """
 
     md += f"""
+<!-- 活跃度图 -->
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username={username}&theme=github&v={cache_bust}" width="100%" />
+</p>
+
 <p align="center">
   <img src="{STATIC_SKILL_ICONS}" alt="skills" />
 </p>

@@ -15,6 +15,11 @@
   <img src="https://github-readme-stats-phi-rouge.vercel.app/api?username=loks666&show_icons=true&include_all_commits=true&count_private=false&hide_border=true&theme=github_dark&v=20260829085256" alt="loks666's Github Stats" width="100%" />
 </p>
 
+<!-- 活跃度图 -->
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=loks666&theme=github&v=20260829085256" width="100%" />
+</p>
+
 <p align="center">
   <img src="https://skillicons.dev/icons?i=c,cpp,go,py,html,css,js,nodejs,java,md,pytorch,tensorflow,flask,fastapi,express,qt,react,cmake,docker,git,linux,nginx,mysql,redis,sqlite,githubactions,heroku,vercel,visualstudio,vscode" alt="skills" />
 </p>
