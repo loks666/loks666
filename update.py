@@ -180,15 +180,20 @@ def render(username: str, repos: list) -> str:
   <img src="{GRAPH_BASE}/graph?username={username}&theme=github&v={cache_bust}" width="100%" />
 </p>
 
-<!-- 动态技术栈：AI 开发、后端与部署 -->
+<!-- 动态技术栈：Java / Python / Go / Rust / LLM 与全栈部署 -->
 <p align="center">
-  <img src="https://techstack-generator.vercel.app/python-icon.svg" alt="Python" width="65" height="65" />
-  <img src="https://techstack-generator.vercel.app/java-icon.svg" alt="Java" width="65" height="65" />
-  <img src="https://techstack-generator.vercel.app/docker-icon.svg" alt="Docker" width="65" height="65" />
-  <img src="https://techstack-generator.vercel.app/kubernetes-icon.svg" alt="Kubernetes" width="65" height="65" />
-  <img src="https://techstack-generator.vercel.app/mysql-icon.svg" alt="MySQL" width="65" height="65" />
-  <img src="https://techstack-generator.vercel.app/nginx-icon.svg" alt="Nginx" width="65" height="65" />
-  <img src="https://techstack-generator.vercel.app/restapi-icon.svg" alt="REST API" width="65" height="65" />
+  <img src="https://techstack-generator.vercel.app/java-icon.svg" alt="Java" title="Java" width="7.7%" />
+  <img src="https://techstack-generator.vercel.app/python-icon.svg" alt="Python" title="Python" width="7.7%" />
+  <img src="assets/animated/go.svg" alt="Go" title="Go" width="7.7%" />
+  <img src="assets/animated/rust.svg" alt="Rust" title="Rust" width="7.7%" />
+  <img src="assets/animated/llm.svg" alt="LLM" title="LLM" width="7.7%" />
+  <img src="assets/animated/pytorch.svg" alt="PyTorch" title="PyTorch" width="7.7%" />
+  <img src="https://techstack-generator.vercel.app/react-icon.svg" alt="React" title="React" width="7.7%" />
+  <img src="https://techstack-generator.vercel.app/docker-icon.svg" alt="Docker" title="Docker" width="7.7%" />
+  <img src="https://techstack-generator.vercel.app/kubernetes-icon.svg" alt="Kubernetes" title="Kubernetes" width="7.7%" />
+  <img src="https://techstack-generator.vercel.app/mysql-icon.svg" alt="MySQL" title="MySQL" width="7.7%" />
+  <img src="https://techstack-generator.vercel.app/nginx-icon.svg" alt="Nginx" title="Nginx" width="7.7%" />
+  <img src="https://techstack-generator.vercel.app/restapi-icon.svg" alt="REST API" title="REST API" width="7.7%" />
 </p>
 
 <p align="center">
@@ -200,6 +205,14 @@ def render(username: str, repos: list) -> str:
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/{username}/{username}/output/github-contribution-grid-snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/{username}/{username}/output/github-contribution-grid-snake.svg">
   <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/{username}/{username}/output/github-contribution-grid-snake.svg" width="100%" />
+</picture>
+
+<!-- 炸弹人贡献图，每日自动更新 -->
+<h3>💣 Bomberman</h3>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/{username}/{username}/bomberman-output/bomberman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/{username}/{username}/bomberman-output/bomberman-contribution-graph.svg">
+  <img alt="Bomberman contribution graph animation" src="https://raw.githubusercontent.com/{username}/{username}/bomberman-output/bomberman-contribution-graph.svg" width="100%" />
 </picture>
 
 ## Top Projects
