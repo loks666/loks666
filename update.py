@@ -180,6 +180,17 @@ def render(username: str, repos: list) -> str:
   <img src="{GRAPH_BASE}/graph?username={username}&theme=github&v={cache_bust}" width="100%" />
 </p>
 
+<!-- 动态技术栈：AI 开发、后端与部署 -->
+<p align="center">
+  <img src="https://techstack-generator.vercel.app/python-icon.svg" alt="Python" width="65" height="65" />
+  <img src="https://techstack-generator.vercel.app/java-icon.svg" alt="Java" width="65" height="65" />
+  <img src="https://techstack-generator.vercel.app/docker-icon.svg" alt="Docker" width="65" height="65" />
+  <img src="https://techstack-generator.vercel.app/kubernetes-icon.svg" alt="Kubernetes" width="65" height="65" />
+  <img src="https://techstack-generator.vercel.app/mysql-icon.svg" alt="MySQL" width="65" height="65" />
+  <img src="https://techstack-generator.vercel.app/nginx-icon.svg" alt="Nginx" width="65" height="65" />
+  <img src="https://techstack-generator.vercel.app/restapi-icon.svg" alt="REST API" width="65" height="65" />
+</p>
+
 <p align="center">
   <img src="{STATIC_SKILL_ICONS}" alt="skills" />
 </p>
