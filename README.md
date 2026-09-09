@@ -40,19 +40,12 @@
   <img src="https://skillicons.dev/icons?i=c,cpp,go,py,html,css,js,nodejs,java,md,pytorch,tensorflow,flask,fastapi,express,qt,react,cmake,docker,git,linux,nginx,mysql,redis,sqlite,githubactions,heroku,vercel,visualstudio,vscode" alt="skills" />
 </p>
 
-<!-- 贪吃蛇贡献图（位于 Top Projects 上方） -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/loks666/loks666/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/loks666/loks666/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/loks666/loks666/output/github-contribution-grid-snake.svg" width="100%" />
-</picture>
-
 <!-- 炸弹人贡献图，每日自动更新 -->
-<h3>💣 Bomberman</h3>
+<h3>💣 炸弹人</h3>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/loks666/loks666/bomberman-output/bomberman-contribution-graph-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/loks666/loks666/bomberman-output/bomberman-contribution-graph.svg">
-  <img alt="Bomberman contribution graph animation" src="https://raw.githubusercontent.com/loks666/loks666/bomberman-output/bomberman-contribution-graph.svg" width="100%" />
+  <img alt="炸弹人贡献图动画" src="https://raw.githubusercontent.com/loks666/loks666/bomberman-output/bomberman-contribution-graph.svg" width="100%" />
 </picture>
 
 ## Top Projects
