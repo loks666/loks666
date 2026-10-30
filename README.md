@@ -2,22 +2,22 @@
 
 <!-- ① 第一行：奖杯墙（更大） -->
 <p align="center">
-  <img src="https://github-profile-trophy-flame.vercel.app/?username=loks666&theme=darkhub&title=-Reviews&v=20261030053716" alt="loks666's Trophies" width="100%" />
+  <img src="https://github-profile-trophy-flame.vercel.app/?username=loks666&theme=darkhub&title=-Reviews&v=20261031052328" alt="loks666's Trophies" width="100%" />
 </p>
 
 <!-- ② 第二行：Streak（你图里 3060 那张，缩小一些） -->
 <p align="center">
-  <img src="https://github-readme-streak-stats-delta-green.vercel.app/?user=loks666&theme=github-dark&hide_border=true&v=20261030053716" alt="loks666's GitHub Streak" width="100%" />
+  <img src="https://github-readme-streak-stats-delta-green.vercel.app/?user=loks666&theme=github-dark&hide_border=true&v=20261031052328" alt="loks666's GitHub Streak" width="100%" />
 </p>
 
 <!-- ③ 第三行：Stats（A- 那张，缩小一些） -->
 <p align="center">
-  <img src="https://github-readme-stats-phi-rouge.vercel.app/api?username=loks666&show_icons=true&include_all_commits=true&count_private=false&hide_border=true&theme=github_dark&v=20261030053716" alt="loks666's Github Stats" width="100%" />
+  <img src="https://github-readme-stats-phi-rouge.vercel.app/api?username=loks666&show_icons=true&include_all_commits=true&count_private=false&hide_border=true&theme=github_dark&v=20261031052328" alt="loks666's Github Stats" width="100%" />
 </p>
 
 <!-- 活跃度图 -->
 <p align="center">
-  <img src="https://github-readme-activity-graph-indol-phi.vercel.app/graph?username=loks666&theme=github&v=20261030053716" width="100%" />
+  <img src="https://github-readme-activity-graph-indol-phi.vercel.app/graph?username=loks666&theme=github&v=20261031052328" width="100%" />
 </p>
 
 <!-- 动态技术栈：Java / Python / Go / Rust / LLM 与全栈部署 -->
@@ -51,9 +51,9 @@
 ## Top Projects
 |Project|Description|Stars|
 |:--|:--|:--|
-|[get_jobs](https://github.com/loks666/get_jobs)|💼【AI找工作助手】全平台自动投简历脚本：(boss、前程无忧、猎聘、智联招聘)|`9382⭐`|
+|[get_jobs](https://github.com/loks666/get_jobs)|💼【AI找工作助手】全平台自动投简历脚本：(boss、前程无忧、猎聘、智联招聘)|`9406⭐`|
 |[anyrouter-autolog (fork)](https://github.com/loks666/anyrouter-autolog)|🤖AnyRouter多账号签到。|`93⭐`|
-|[idm_crack](https://github.com/loks666/idm_crack)|This is a repository for backing up idm crack files，这是一个备份IDM破解文件的仓库|`45⭐`|
+|[idm_crack](https://github.com/loks666/idm_crack)|This is a repository for backing up idm crack files，这是一个备份IDM破解文件的仓库|`46⭐`|
 |[niubaide_im](https://github.com/loks666/niubaide_im)|牛掰的即时通讯(Uniapp + SpringBoot + Netty)|`33⭐`|
 |[webchat](https://github.com/loks666/webchat)|一个聊天应用|`24⭐`|
 |[disease-prediction](https://github.com/loks666/disease-prediction)|疾病预测分析系统旨在利用现代数据分析技术和机器学习算法，帮助医疗机构和研究人员对疾病的发生和发展进行预测和分析，从而提高疾病防控和治疗的效率。该系统主要包括数据收集与处理、模型训练与评估、以及预测结果展示等模块。|`19⭐`|
@@ -66,7 +66,7 @@
 ## Recent Updates
 |Project|Description|Last Update|
 |:--|:--|:--|
-|[loks666](https://github.com/loks666/loks666)|自动化统计你的github数据并更新描述文件|![2026-10-29 21:11:30](https://img.shields.io/badge/2026--10--29-21%3A11%3A30-brightgreen?style=flat-square)|
+|[loks666](https://github.com/loks666/loks666)|自动化统计你的github数据并更新描述文件|![2026-10-30 20:50:33](https://img.shields.io/badge/2026--10--30-20%3A50%3A33-brightgreen?style=flat-square)|
 |[get_jobs](https://github.com/loks666/get_jobs)|💼【AI找工作助手】全平台自动投简历脚本：(boss、前程无忧、猎聘、智联招聘)|![2026-10-28 06:41:48](https://img.shields.io/badge/2026--10--28-06%3A41%3A48-brightgreen?style=flat-square)|
 |[loks666.github.io](https://github.com/loks666/loks666.github.io)|this is my bolg|![2026-10-15 08:00:22](https://img.shields.io/badge/2026--10--15-08%3A00%3A22-brightgreen?style=flat-square)|
 |[js.org (fork)](https://github.com/loks666/js.org)|Dedicated to JavaScript and its awesome community since 2015|![2026-10-15 07:31:39](https://img.shields.io/badge/2026--10--15-07%3A31%3A39-brightgreen?style=flat-square)|
@@ -78,4 +78,4 @@
 |[WeChatVault](https://github.com/loks666/WeChatVault)|PC端微信数据库工具，微信聊天记录一键导出，exe一键命令执行|![2026-08-29 10:08:11](https://img.shields.io/badge/2026--08--29-10%3A08%3A11-brightgreen?style=flat-square)|
 
 
-*Last updated on: 2026-10-30 05:37:16*
+*Last updated on: 2026-10-31 05:23:28*
