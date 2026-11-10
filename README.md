@@ -22,18 +22,18 @@
 
 <!-- 动态技术栈：Java / Python / Go / Rust / LLM 与全栈部署 -->
 <p align="center">
-  <img src="https://techstack-generator.vercel.app/java-icon.svg" alt="Java" title="Java" width="7.7%" />
-  <img src="https://techstack-generator.vercel.app/python-icon.svg" alt="Python" title="Python" width="7.7%" />
+  <img src="assets/animated/java.svg" alt="Java" title="Java" width="7.7%" />
+  <img src="assets/animated/python.svg" alt="Python" title="Python" width="7.7%" />
   <img src="assets/animated/go.svg" alt="Go" title="Go" width="7.7%" />
   <img src="assets/animated/rust.svg" alt="Rust" title="Rust" width="7.7%" />
   <img src="assets/animated/llm.svg" alt="LLM" title="LLM" width="7.7%" />
   <img src="assets/animated/pytorch.svg" alt="PyTorch" title="PyTorch" width="7.7%" />
-  <img src="https://techstack-generator.vercel.app/react-icon.svg" alt="React" title="React" width="7.7%" />
-  <img src="https://techstack-generator.vercel.app/docker-icon.svg" alt="Docker" title="Docker" width="7.7%" />
-  <img src="https://techstack-generator.vercel.app/kubernetes-icon.svg" alt="Kubernetes" title="Kubernetes" width="7.7%" />
-  <img src="https://techstack-generator.vercel.app/mysql-icon.svg" alt="MySQL" title="MySQL" width="7.7%" />
-  <img src="https://techstack-generator.vercel.app/nginx-icon.svg" alt="Nginx" title="Nginx" width="7.7%" />
-  <img src="https://techstack-generator.vercel.app/restapi-icon.svg" alt="REST API" title="REST API" width="7.7%" />
+  <img src="assets/animated/react.svg" alt="React" title="React" width="7.7%" />
+  <img src="assets/animated/docker.svg" alt="Docker" title="Docker" width="7.7%" />
+  <img src="assets/animated/kubernetes.svg" alt="Kubernetes" title="Kubernetes" width="7.7%" />
+  <img src="assets/animated/mysql.svg" alt="MySQL" title="MySQL" width="7.7%" />
+  <img src="assets/animated/nginx.svg" alt="Nginx" title="Nginx" width="7.7%" />
+  <img src="assets/animated/restapi.svg" alt="REST API" title="REST API" width="7.7%" />
 </p>
 
 <p align="center">

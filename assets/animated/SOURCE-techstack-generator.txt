@@ -1,0 +1,2 @@
+The java.svg, python.svg, react.svg, docker.svg, kubernetes.svg, mysql.svg, nginx.svg and restapi.svg files are vendored unchanged from https://github.com/raptr45/techstack-generator-plus/tree/6eaeb644601d8dc12f7fc978c600ccc8c80dd91c/static .
+Original project by shellboy. MIT license in LICENSE-techstack-generator.txt.
