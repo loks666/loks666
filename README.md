@@ -2,22 +2,22 @@
 
 <!-- ① 第一行：奖杯墙（更大） -->
 <p align="center">
-  <img src="https://github-profile-trophy-flame.vercel.app/?username=loks666&theme=darkhub&title=-Reviews&v=20261119071817" alt="loks666's Trophies" width="100%" />
+  <img src="https://github-profile-trophy-flame.vercel.app/?username=loks666&theme=darkhub&title=-Reviews&v=20261120072617" alt="loks666's Trophies" width="100%" />
 </p>
 
 <!-- ② 第二行：Streak（你图里 3060 那张，缩小一些） -->
 <p align="center">
-  <img src="https://github-readme-streak-stats-delta-green.vercel.app/?user=loks666&theme=github-dark&hide_border=true&v=20261119071817" alt="loks666's GitHub Streak" width="100%" />
+  <img src="https://github-readme-streak-stats-delta-green.vercel.app/?user=loks666&theme=github-dark&hide_border=true&v=20261120072617" alt="loks666's GitHub Streak" width="100%" />
 </p>
 
 <!-- ③ 第三行：Stats（A- 那张，缩小一些） -->
 <p align="center">
-  <img src="https://github-readme-stats-phi-rouge.vercel.app/api?username=loks666&show_icons=true&include_all_commits=true&count_private=false&hide_border=true&theme=github_dark&v=20261119071817" alt="loks666's Github Stats" width="100%" />
+  <img src="https://github-readme-stats-phi-rouge.vercel.app/api?username=loks666&show_icons=true&include_all_commits=true&count_private=false&hide_border=true&theme=github_dark&v=20261120072617" alt="loks666's Github Stats" width="100%" />
 </p>
 
 <!-- 活跃度图 -->
 <p align="center">
-  <img src="https://github-readme-activity-graph-indol-phi.vercel.app/graph?username=loks666&theme=github&v=20261119071817" width="100%" />
+  <img src="https://github-readme-activity-graph-indol-phi.vercel.app/graph?username=loks666&theme=github&v=20261120072617" width="100%" />
 </p>
 
 <!-- 动态技术栈：Java / Python / Go / Rust / LLM 与全栈部署 -->
@@ -51,12 +51,12 @@
 ## Top Projects
 |Project|Description|Stars|
 |:--|:--|:--|
-|[get_jobs](https://github.com/loks666/get_jobs)|💼【AI找工作助手】全平台自动投简历脚本：(boss、前程无忧、猎聘、智联招聘)|`9783⭐`|
+|[get_jobs](https://github.com/loks666/get_jobs)|💼【AI找工作助手】全平台自动投简历脚本：(boss、前程无忧、猎聘、智联招聘)|`9808⭐`|
 |[anyrouter-autolog (fork)](https://github.com/loks666/anyrouter-autolog)|🤖AnyRouter多账号签到。|`94⭐`|
 |[idm_crack](https://github.com/loks666/idm_crack)|This is a repository for backing up idm crack files，这是一个备份IDM破解文件的仓库|`51⭐`|
 |[niubaide_im](https://github.com/loks666/niubaide_im)|牛掰的即时通讯(Uniapp + SpringBoot + Netty)|`33⭐`|
 |[webchat](https://github.com/loks666/webchat)|一个聊天应用|`24⭐`|
-|[disease-prediction](https://github.com/loks666/disease-prediction)|疾病预测分析系统旨在利用现代数据分析技术和机器学习算法，帮助医疗机构和研究人员对疾病的发生和发展进行预测和分析，从而提高疾病防控和治疗的效率。该系统主要包括数据收集与处理、模型训练与评估、以及预测结果展示等模块。|`19⭐`|
+|[disease-prediction](https://github.com/loks666/disease-prediction)|疾病预测分析系统旨在利用现代数据分析技术和机器学习算法，帮助医疗机构和研究人员对疾病的发生和发展进行预测和分析，从而提高疾病防控和治疗的效率。该系统主要包括数据收集与处理、模型训练与评估、以及预测结果展示等模块。|`20⭐`|
 |[ruyun_library](https://github.com/loks666/ruyun_library)|【如云图书馆】基于Django框架+Mysql开发的图书管理系统|`11⭐`|
 |[FinancialMachineLearning](https://github.com/loks666/FinancialMachineLearning)|该项目利用资本资产定价模型（CAPM）和均值方差优化（MVO），通过二次规划来构建最优投资组合，以最小化风险并最大化收益。|`8⭐`|
 |[chatgpt-on-wechat (fork)](https://github.com/loks666/chatgpt-on-wechat)|Wechat robot based on ChatGPT,  which using OpenAI api and itchat library. 使用大模型搭建微信聊天机器人，基于 GPT3.5/GPT4.0/Claude/文心一言/讯飞星火/通义千问/Gemini/LinkAI，支持个人微信、公众号、企业微信、飞书部署，能处理文本、语音和图片，访问操作系统和互联网，支持基于知识库定制专属机器人。|`8⭐`|
@@ -66,7 +66,7 @@
 ## Recent Updates
 |Project|Description|Last Update|
 |:--|:--|:--|
-|[loks666](https://github.com/loks666/loks666)|自动化统计你的github数据并更新描述文件|![2026-11-18 22:57:27](https://img.shields.io/badge/2026--11--18-22%3A57%3A27-brightgreen?style=flat-square)|
+|[loks666](https://github.com/loks666/loks666)|自动化统计你的github数据并更新描述文件|![2026-11-19 23:04:50](https://img.shields.io/badge/2026--11--19-23%3A04%3A50-brightgreen?style=flat-square)|
 |[get_jobs](https://github.com/loks666/get_jobs)|💼【AI找工作助手】全平台自动投简历脚本：(boss、前程无忧、猎聘、智联招聘)|![2026-11-12 03:10:19](https://img.shields.io/badge/2026--11--12-03%3A10%3A19-brightgreen?style=flat-square)|
 |[pacman-engine](https://github.com/loks666/pacman-engine)|搜索与启发式智能体：通过路径搜索、启发式评估和规则决策，让智能体自动完成吃豆人挑战|![2026-11-03 09:22:16](https://img.shields.io/badge/2026--11--03-09%3A22%3A16-brightgreen?style=flat-square)|
 |[oldHooliganTask](https://github.com/loks666/oldHooliganTask)|基于 Java Swing / Java2D + JBox2D 的《愤怒的小鸟》风格二维物理小游戏|![2026-11-03 02:59:32](https://img.shields.io/badge/2026--11--03-02%3A59%3A32-brightgreen?style=flat-square)|
@@ -78,4 +78,4 @@
 |[idm_crack](https://github.com/loks666/idm_crack)|This is a repository for backing up idm crack files，这是一个备份IDM破解文件的仓库|![2026-09-09 05:04:20](https://img.shields.io/badge/2026--09--09-05%3A04%3A20-brightgreen?style=flat-square)|
 
 
-*Last updated on: 2026-11-19 07:18:17*
+*Last updated on: 2026-11-20 07:26:17*
